@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Épée Arbalète Hache</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div id="game-container">
+			<div id="play-again-container" class="absolute-container">
+				<h2>Rejouer ?</h2>
+			</div>
+
+			<div id="confetti-container" class="absolute-container"></div>
+
+			<div id="interface">
+				<div id="game-rule">
+					<p>L'épée bat l'arabalète</p>
+					<p>L'arbalète bat la hache</p>
+					<p>La hache bat l'épée</p>
+				</div>
+				<div id="choice">
+					<h1>Qu'allez vous choisir ?</h1>
+					<div id="choice-box">
+						<img
+							src="assets/sword.jpg"
+							alt="Choisir l'épée"
+							data-value="sword"
+						/>
+						<img
+							src="assets/crossbow.jpg"
+							alt="Choisir l'arbalète"
+							data-value="crossbow"
+						/>
+						<img src="assets/axe.jpg" alt="Choisir la hache" data-value="axe" />
+					</div>
+				</div>
+			</div>
+
+			<div id="result">Résultat du round</div>
+
+			<div id="showdown">
+				<div class="character" id="hero">
+					<img src="assets/woman.png" alt="Votre personnage" />
+					<div class="character-info">
+						<p>Héroïne</p>
+						<div class="health-bar">
+							<div class="health-point"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="character" id="villain">
+					<img src="assets/woman.png" alt="Votre personnage" />
+					<div class="character-info">
+						<p>Double maléfique</p>
+						<div class="health-bar">
+							<div class="health-point"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
