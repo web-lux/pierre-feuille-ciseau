@@ -1,5 +1,7 @@
 # Pierre Feuille Ciseau
 
+[Projet consultable ici.](https://web-lux.github.io/pierre-feuille-ciseau/)
+
 Projet autodidacte pour The Odin Project.
 Puisqu'on trouve beaucoup d'assets graphiques gratuits et libres d'utilisation sur itch.io (plateforme pour les créateurs de jeux indépendants), j'ai fait le choix de faire une interface proche de ce qu'on trouverait dans un jeu vidéo. Le triangle des armes est quant à lui directement inspiré de la série Fire Emblem.
 
