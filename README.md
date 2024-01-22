@@ -5,7 +5,9 @@
 ## 📄 Description
 Un jeu de Pierre Feuille Ciseau réalisé dans le cadre de l'[Odin Project](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors#assignment) afin de pratiquer les bases du javascript vanilla. J'ai fait le choix d'une UI inspirée des jeux vidéos sidescroller et remplacé le "Pierre Feuille Ciseau" traditionnel par un "Épée Hache Arbalète" en référence à la licence Fire Emblem.
 
-![Gif de l'application](preview.gif)
+![Gif de l'application](rps1.gif)
+
+![Gif de l'application](rps2.gif)
 
 ## 🔨 Outils utilisés
 - HTML
